@@ -3,7 +3,12 @@ T-488-MAPP - Þróun Smáforrita - 2024 Haustönn - Háskólinn í Reykjavík
 
 
 ---
+# Table of contents
+[Install Guide](#install-guide) <br>
+[Initialize Repository](#initializing-repo)<br>
+[New Branch](#initializing-a-New-Branch)<br>
 
+---
 
 # Install guide
 ### Initializing Repository on Your PC
