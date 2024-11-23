@@ -7,10 +7,11 @@ T-488-MAPP - Þróun Smáforrita - 2024 Haustönn - Háskólinn í Reykjavík
 [Install Guide](#install-guide) <br>
 [Initialize Repository](#initializing-repo)<br>
 [New Branch](#initializing-a-New-Branch)<br>
+[Commit new branch](#committing-the-new-branch-to-prod)<br>
 
 ---
 
-# Install guide
+## Install guide
 ### Initializing Repository on Your PC
 1. On the CLI on your PC, navigate to the directory where you want to place the repo (e.g., `/Desktop`).
 2. Run:  
@@ -21,16 +22,15 @@ T-488-MAPP - Þróun Smáforrita - 2024 Haustönn - Háskólinn í Reykjavík
 
 ---
 
-# Initializing repo
-### Some really cool instructions, on what to run to get everything working
+## Initializing repo
 
 ---
 
-# Instructions on how to run the app using Expo
+## Instructions on how to run the app using Expo
 
 ---
 
-# Git: Add, Commit, Push, and Branches
+## Git: Add, Commit, Push, and Branches
 
 ### Initializing a New Branch
 When starting work on the source code, always create a new branch before making any changes.
