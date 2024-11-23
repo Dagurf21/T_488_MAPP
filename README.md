@@ -122,3 +122,8 @@ Once you've completed your work on the new branch and are ready to merge it into
 Replace `<your-branch-name>` with the actual name of your branch throughout the steps.
 
 ---
+
+## Create new react native app
+```
+npx create-expo-app
+```
