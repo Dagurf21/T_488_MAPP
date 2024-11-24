@@ -8,6 +8,19 @@ T-488-MAPP - Þróun Smáforrita - 2024 Haustönn - Háskólinn í Reykjavík
 [Initialize Repository](#initializing-repo)<br>
 [New Branch](#initializing-a-New-Branch)<br>
 [Commit new branch](#committing-the-new-branch-to-prod)<br>
+[Run Expo](#run-expo)<br>
+
+---
+
+## Run Expo
+1. To run expo go into the directory of the app you want to run.
+```bash
+cd <example-app>
+```
+2. Run:
+```bash
+npx expo start
+```
 
 ---
 
