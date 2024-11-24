@@ -1,50 +1,18 @@
-# Welcome to your Expo app 👋
+# Grading for Assignment III - Dr. Cinema
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+| **Criterion**                                     | **Description**                                                                                                         | **Marks**                                                                                              | **Max Points** |
+|---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|---------------|
+| **Cinema list - A user should see a list of all cinemas** | 1. Alphabetically ordered (0.25 points)<br>2. Displaying name (0.375 points)<br>3. Displaying website (0.375 points)    | 1 Pts (3/3)<br>0.66 Pts (2/3)<br>0.33 Pts (1/3)<br>0 Pts (No marks)                                     | 1.0           |
+| **Cinema list - Each cinema should be clickable** | Each cinema in the list should be clickable and navigate to a detailed screen of the selected cinema                   | 0.5 Pts (Full marks)<br>0.25 Pts (Half marks)<br>0 Pts (No marks)                                       | 0.5           |
+| **A user should see detailed information on a selected cinema** | 1. Displaying name (0.1 points)<br>2. Description (0.1 points)<br>3. Address (0.1 points)<br>4. Phone (0.1 points)<br>5. Website (0.1 points) | 0.5 Pts (5/5)<br>0.4 Pts (4/5)<br>0.3 Pts (3/5)<br>0.2 Pts (2/5)<br>0.1 Pts (1/5)<br>0 Pts (No marks)  | 0.5           |
+| **Movie list - A movie should display all fields** | 1. Thumbnail (0.25 points)<br>2. Name (0.25 points)<br>3. Release year (0.25 points)<br>4. Genres (0.25 points)        | 1 Pts (4/4)<br>0.75 Pts (3/4)<br>0.5 Pts (2/4)<br>0.25 Pts (1/4)<br>0 Pts (No marks)                    | 1.0           |
+| **Movie list - Each movie should be clickable**   | Each movie in the list should be clickable and navigate to a detailed screen of the selected movie                     | 0.5 Pts (Full marks)<br>0.25 Pts (Half marks)<br>0 Pts (No marks)                                       | 0.5           |
+| **A user should see detailed information about a selected movie** | 1. Name (0.1 points)<br>2. Image (0.1 points)<br>3. Plot (0.1 points)<br>4. Duration (0.1 points)<br>5. Year of release (0.1 points)<br>6. Genres (0.5 points) | 1 Pts (6/6)<br>0.5 Pts (5/6)<br>0.4 Pts (4/6)<br>0.3 Pts (3/6)<br>0.2 Pts (2/6)<br>0.1 Pts (1/6)<br>0 Pts (No marks) | 1.0           |
+| **Show times - A user should see movie show times** | Show times should be linked to the selected cinema                                                                     | 1.5 Pts (Full marks)<br>0.75 Pts (Half marks)<br>0 Pts (No marks)                                       | 1.5           |
+| **Show times - A user should be able to purchase tickets via a link** | A user should be able to purchase tickets using a provided link                                                        | 0.5 Pts (Full marks)<br>0.25 Pts (Half marks)<br>0 Pts (No marks)                                       | 0.5           |
+| **A user should see a list of all upcoming movies** | 1. Ordered by release date (0.25 points)<br>2. Thumbnail (0.25 points)<br>3. Name (0.25 points)<br>4. Release date (0.25 points) | 1 Pts (4/4)<br>0.75 Pts (3/4)<br>0.5 Pts (2/4)<br>0.25 Pts (1/4)<br>0 Pts (No marks)                    | 1.0           |
+| **Upcoming movie - Watching the trailer (EXTRA)** | A user should be able to watch a trailer for upcoming movies                                                           | 1 Pts (Full marks)<br>0.5 Pts (Not functioning correctly)<br>0 Pts (No marks)                           | 1.0           |
+| **Redux - All network requests use asynchronous action creators** | Network requests go through asynchronous Redux action creators                                                         | 1 Pts (Full marks)<br>0.75 Pts (Almost there)<br>0.5 Pts (Half marks)<br>0.25 Pts (Barebone functionality)<br>0 Pts (No marks) | 1.0           |
+| **Redux - Components use Redux hooks**            | Components make use of Redux hooks for state management                                                                | 1 Pts (Full marks)<br>0.75 Pts (Almost there)<br>0.5 Pts (Half marks)<br>0.25 Pts (Barebone functionality)<br>0 Pts (No marks) | 1.0           |
+| **Redux - State partitioned with multiple reducers** | State is managed and partitioned across multiple reducers                                                             | 0.5 Pts (Full marks)<br>0.25 Pts (Not functioning correctly)<br>0 Pts (No marks)                         | 0.5           |
+| **Total**                                           |                                                                                                                         |                                                                                                           | **11**        |

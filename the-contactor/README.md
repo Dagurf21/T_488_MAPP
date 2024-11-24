@@ -1,50 +1,16 @@
-# Welcome to your Expo app 👋
+# Grading for Assignment II - The Contactor
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+| **Criterion**                                         | **Description**                                                                                                  | **Marks**                                                                     | **Max Points** |
+|-------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|---------------|
+| **A user should see a list of all his saved contacts**| 1. Alphabetically ordered (ascending order) (0.5 points)<br>2. Displaying name (0.5 points)<br>3. Displaying a thumbnail (0.5 points) | 1.5 Pts (3/3)<br>1.0 Pts (2/3)<br>0.5 Pts (1/3)<br>0 Pts (No marks)          | 1.5           |
+| **Searching - Contact list filters dynamically based on search filter** | 1. Contact list filters dynamically based on search filter (1 point)                                             | 1 Pts (Full marks)<br>0.5 Pts (Half marks)<br>0 Pts (No marks)               | 1.0           |
+| **Searching - Case insensitive substring search**     | 1. Search should be a case insensitive substring search                                                          | 0.5 Pts (Full marks)<br>0.25 Pts (Half marks)<br>0 Pts (No marks)            | 0.5           |
+| **Adding a user**                                     | 1. A form should be displayed which can be used to add a new contact                                              | 1 Pts (Full marks)<br>0.5 Pts (Half marks)<br>0 Pts (No marks)               | 1.0           |
+| **User stored in file system**                        | 1. When form is submitted, the user is stored in the file system<br>2. Stored format matches assignment description | 1 Pts (2/2)<br>0.5 Pts (1/2)<br>0 Pts (No marks)                            | 1.0           |
+| **A user should see detailed contact information**    | 1. Displaying name (0.33 points)<br>2. Displaying image (0.33 points)<br>3. Displaying phone number (0.33 points) | 1 Pts (3/3)<br>0.66 Pts (2/3)<br>0.33 Pts (1/3)<br>0 Pts (No marks)          | 1.0           |
+| **Modifying a user - All properties editable**        | 1. All properties should be editable: image, name, and phone number                                              | 1 Pts (3/3)<br>0.66 Pts (2/3)<br>0.33 Pts (1/3)<br>0 Pts (No marks)          | 1.0           |
+| **Modifying a user - JSON file recreation**           | 1. JSON file should be recreated with updated information                                                        | 1 Pts (Full marks)<br>0.5 Pts (Half marks)<br>0 Pts (No marks)               | 1.0           |
+| **Extras - Import contacts from OS**                 | 1. A user should be able to import contacts from the OS                                                          | 1 Pts (Full marks)<br>0.5 Pts (Half marks)<br>0 Pts (No marks)               | 1.0           |
+| **Extras - Add image from camera/gallery**           | 1. A user should be able to add an image using the camera or importing from the gallery                          | 1 Pts (Full marks)<br>0.5 Pts (Half marks)<br>0 Pts (No marks)               | 1.0           |
+| **Extras - Make a call from the app**                | 1. A user should be able to make a phone call to a contact                                                       | 1 Pts (Full marks)<br>0.5 Pts (Half marks)<br>0 Pts (No marks)               | 1.0           |
+| **Total**                                             |                                                                                                                  |                                                                               | **11**        |
