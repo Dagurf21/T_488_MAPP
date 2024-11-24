@@ -1,4 +1,4 @@
-# Grading for Assignment 1
+# Grading for Assignment I - The Toddler
 | **Criterion**                                   | **Description**                                                                                                                                               | **Marks**                                                                      | **Max Points**|
 |-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|---------------|
 | **A user should see a list of all his boards**  | 1. Boards are rendered as a list<br>2. All board information are showing: name, description, and image thumbnail<br>3. Each board is clickable (navigation)   | 0.5 Pts (3/3)<br>0.33 Pts (2/3)<br>0.17 Pts (1/3)<br>0 Pts (No marks)          | 0.5           |
