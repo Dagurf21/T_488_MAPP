@@ -31,8 +31,23 @@ npx expo start
    ```
    git clone https://github.com/Dagurf21/T_488_MAPP.git
    ```
-3. There should now be a folder called T_488_MAPP.
+3. There should now be a folder called T_488_MAPP. Go into that folder
+    ```
+   cd T_488_MAPP
+   ```
+4. Install npm and expo-cli.
+    ```
+   npm install
+   npm install -g expo-cli
+    ```
 
+5. Check if everything works by executing the following lines.
+    ```
+   cd the-toddler
+   npx expo start
+    ```
+
+6. Go to your browser and open `http://localhost:8081`
 ---
 
 ## Initializing repo
