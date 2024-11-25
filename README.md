@@ -47,7 +47,7 @@ npx expo start
    npx expo start
     ```
 
-6. Go to your browser and open `http://localhost:8081`
+   6. Go to your browser and open `http://localhost:8081`   
 ---
 
 ## Initializing repo
