@@ -1,0 +1,17 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore build output
+dist/
+build/
+
+# Ignore JSON data file
+data.json
+
+# Ignore specific config files
+.env
+package-lock.json
+expo-env.d.ts
+
+# Ignore all files in a specific folder
+scripts/
