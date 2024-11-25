@@ -53,5 +53,42 @@
     "eslint": "^8.57.0",
     "eslint-config-expo": "~8.0.1"
   },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "es2021": true,
+      "node": true
+    },
+    "extends": [
+      "expo",
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "airbnb",
+      "plugin:prettier/recommended"
+    ],
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+    },
+    "plugins": [
+      "react",
+      "react-hooks"
+    ],
+    "rules": {
+      "semi": ["error", "always"],
+      "no-extra-semi": "error",
+      "quotes": ["error", "double"],
+      "no-unused-vars": "warn",
+      "no-console": "off",
+      "react/react-in-jsx-scope": "off",
+      "curly": "error",
+      "no-var": "error",
+      "eqeqeq": "error",
+      "no-undef": "error"
+    }
+  },
   "private": true
 }
